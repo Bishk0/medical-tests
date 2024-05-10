@@ -6,7 +6,7 @@ on:
       - development # branch name
 
 jobs:
-  deploy-react-to-gh-pages:
+  deploy-to-gh-pages:
     runs-on: ubuntu-latest
 
     steps:

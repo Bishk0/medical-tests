@@ -1,5 +1,6 @@
 {
   "name": "project_x",
+  "homepage": "https://bishk0.github.io/medical-tests",
   "private": true,
   "version": "0.0.0",
   "type": "module",
