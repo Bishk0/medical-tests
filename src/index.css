@@ -1,11 +1,13 @@
-* {
+body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #fbfbfb;
 }
 
 .container {
   max-width: 1024px;
   margin: 0 auto;
-  padding: 25px 0;
+  padding: 0 12px;
 }
 
 .answer-container {
@@ -22,6 +24,6 @@
 
 .horizontal-line {
   height: 1px;
-  background-color: lightgray;
+  background-color: #d3d3d3;
   margin: 12px 0;
 }

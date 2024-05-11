@@ -34,7 +34,7 @@ export const AnswerListItem = ({
   };
 
   return (
-    <label style={{ backgroundColor: highlightAnswer() }}>
+    <label style={{ backgroundColor: highlightAnswer(), borderRadius: '4px' }}>
       <input
         type='radio'
         name={questionId}
