@@ -8,7 +8,7 @@ export const AnswerList = ({ questionId, answerListData }: AnswerListType) => {
   const [isAnswerSelected, setIsAnswerSelected] = useState<boolean>(false);
 
   return (
-    <ol className='answer-container'>
+    <ol className='answer-list-container'>
       {answerListData.map((answer: IAnswer) => (
         <li key={answer.id}>
           <AnswerListItem

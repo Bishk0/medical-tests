@@ -10,20 +10,32 @@ body {
   padding: 0 12px;
 }
 
-.answer-container {
+.question-list-container {
+  padding-left: 20px;
+}
+
+.question-list-container > li::marker {
+  font-weight: bold;
+}
+
+.answer-list-container {
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   gap: 5px;
   list-style-type: upper-alpha;
 }
 
-.answer-container > li > label {
+.answer-list-container > li > label {
   padding: 2px 7px;
-  cursor: pointer !important;
 }
 
 .horizontal-line {
   height: 1px;
   background-color: #d3d3d3;
   margin: 12px 0;
+}
+
+h4 {
+  margin-bottom: 12px;
 }
